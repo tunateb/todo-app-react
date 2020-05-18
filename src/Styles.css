@@ -1,0 +1,15 @@
+body {
+    background-color: #dbd4d4;
+}
+
+.todo-list {
+    background-color: #a2afbb;
+}
+
+.todo-list li {
+    list-style: none;
+}
+
+.todo-list li:nth-child(odd) {
+    background-color:#73818d;
+}

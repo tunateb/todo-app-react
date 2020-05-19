@@ -11,12 +11,12 @@ body {
 }
 
 .list-wrapper {
-  background-color: rgba(247, 170, 128, 0);
+  background-color: rgba(248, 151, 98, 0);
   border: none;
 }
 
 .todo-list {
-  background-color: rgb(240, 130, 75);
+  background-color: rgb(230, 81, 7);
 }
 
 .todo-list li {
@@ -30,10 +30,10 @@ body {
 
 .trash-btn {
   background-color: rgb(77, 25, 5);
-  color: rgb(232, 125, 34);
+  color: rgb(230, 81, 7);
   border: 1px solid #333;
 }
 
 .trash-btn:hover {
-  color: rgb(175, 95, 25);
+  color: rgb(146, 81, 24)
 }

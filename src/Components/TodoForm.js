@@ -1,4 +1,5 @@
 import React from "react";
+import AddBtn from "./AddBtn";
 
 class TodoForm extends React.Component {
   render() {
@@ -15,9 +16,7 @@ class TodoForm extends React.Component {
               onChange={this.props.onChange}
             ></input>
           </div>
-          <div className="col col-3 my-3 pl-0">
-            <button className="btn btn-success w-100">Add</button>
-          </div>
+          <AddBtn />
         </div>
       </form>
     );

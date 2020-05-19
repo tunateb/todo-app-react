@@ -8,7 +8,7 @@ import TodoForm from "./Components/TodoForm";
 class App extends React.Component {
   state = {
     todo: "",
-    todos: ["js", "css", "html"],
+    todos: [],
   };
 
   handleChange = (event) => {

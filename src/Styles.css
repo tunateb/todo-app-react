@@ -1,15 +1,39 @@
 body {
-    background-color: #dbd4d4;
+  background-image: url("./img/bg-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Oswald", sans-serif;
+}
+
+.logo {
+  max-width: 400px;
+  max-height: 300px;
+}
+
+.list-wrapper {
+  background-color: rgba(247, 170, 128, 0);
+  border: none;
 }
 
 .todo-list {
-    background-color: #a2afbb;
+  background-color: rgb(240, 130, 75);
 }
 
 .todo-list li {
-    list-style: none;
+  list-style: none;
 }
 
 .todo-list li:nth-child(odd) {
-    background-color:#73818d;
+  background-color: rgb(252, 166, 93);
+  color: #000;
+}
+
+.trash-btn {
+  background-color: rgb(77, 25, 5);
+  color: rgb(232, 125, 34);
+  border: 1px solid #333;
+}
+
+.trash-btn:hover {
+  color: rgb(175, 95, 25);
 }
